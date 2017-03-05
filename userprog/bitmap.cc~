@@ -104,6 +104,7 @@ BitMap::Find()
 
 
 //****Code added by Toks Ipaye
+int
 BitMap::FindBestFit(int required){
     int gap = numBits;
     int gapIndex = 0;
@@ -139,6 +140,7 @@ BitMap::FindBestFit(int required){
   
 
 }
+int
 BitMap::FindWorstFit(int required){
     int gap = 0;
     int gapIndex = 0;
@@ -174,6 +176,7 @@ BitMap::FindWorstFit(int required){
   
 
 }
+int
 BitMap::FindFirstFit(int required){
 
     int found = 0;

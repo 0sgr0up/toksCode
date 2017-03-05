@@ -111,6 +111,7 @@ BitMap::FindBestFit(int required){
     bool inGap = FALSE;
     int tempInd = 0;
     int tempGap = 0;
+
     for (int i = 0; i< numBits; i++){
 
 	if (!Test(i)){
